@@ -1,0 +1,370 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+.mainPageInfo {
+position: absolute;
+width: 100%;
+height: 75%;
+left: 0px;
+z-index: -2;
+overflow: hidden;
+}
+.scrollFix {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Man_Tired_After_Workout_Cartoon.svg/1280px-Man_Tired_After_Workout_Cartoon.svg.png);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: black;
+  margin: 0px;
+  object-fit:cover;
+}
+.mainTitle {
+  margin-left: 1%;
+  color: #0045BE;
+  text-shadow: 9px 6px 20px black;
+  float:left;
+}
+.socialIcon {
+  width: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+  float:right;
+  filter:opacity(65%);
+  filter: brightness(75%);
+}
+.socialIcon:hover {
+  filter:opacity(100%);
+  filter:brightness(100%);
+  filter:drop-shadow(6px 6px 6px black);
+}
+nav {
+  background-color: #E5BA0D;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.descriptionPlace {
+  background-color: rgba(50, 62, 80, 0.5);
+  padding: 10px;
+  color: #F6F7FA;
+  margin-top: 15%;
+  margin-left: 5%;
+  width: 20%;
+  box-shadow: 8px 8px 10.5px black;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+.mainTextModifyH2 {
+}
+.mainContent {
+  background-color: black;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.testimonials::-webkit-scrollbar {
+    display: none;
+}
+.workoutSize, .customized, .testimonials{
+  background-color: rgb(50, 62, 80);
+  color: #F6F7FA;
+  padding: 10px;
+  width: 20%;
+  height: 250px;
+  overflow-y: scroll;
+  margin: 3%;
+  border: 1px solid white;
+  border-radius: 8px;
+  box-shadow: 8px 8px 5px rgb(144, 159, 177);
+
+}
+.workoutSize, .customized {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-align: center;
+}
+.customized::-webkit-scrollbar, .workoutSize::-webkit-scrollbar {
+  display: none;
+}
+.disclamer {
+  color: rgb(157, 176, 163);
+  font-size: 10px;
+}
+.cautionStatement {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+  text-align: center;
+}
+.siteInfo {
+  width: 100%;
+  background-color: black;
+}
+.formBox {
+  width: 46%;
+  margin-left: 27%;
+  margin-right: 27%;
+  text-align: left;
+  position: absolute;
+  margin-top: 120px;
+}
+.icons {
+  display: block;
+}
+.formHeader {
+  text-align: center;
+  color: rgb(144, 159, 177);
+}
+#workoutResults1, #workoutResults2, #workoutResults3, #workoutResults4, #workoutResults5, #workoutResults6 {
+  width: 35%;
+  min-width: 460px;
+  height: 180px;
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  border: thin black solid;
+}
+#instructions {
+  margin-top: 88px;
+  font-size: 22px;
+  font-weight: bold;
+}
+#resultsPage {
+  background-image: url(https://img.etimg.com/photo/msid-74747053,quality-100/for-miles-a-great-bodyweight-workout-would-include-squats-push-ups-walking-lunges-.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+}
+.iframeSizing {
+  width: 300px;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 6%;
+  float:left;
+}
+.description {
+  font-weight: bold;
+}
+
+.extitle {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+hr {
+  margin: 0%;
+}
+#continueButton {
+  position: absolute;
+  width: 250px;
+  text-align: center;
+  top: 350px;
+  right: 185px;
+  padding: 20px 40px 20px 40px;
+  box-shadow: 9px 6px 20px black;
+  background-color: #3A4C5F;
+  color: #F6F7FA;
+  border: 3px solid white;
+  border-radius: 6px;
+  opacity: 0.8;
+  font-size: 25px;
+}
+#continueButton1{
+  position: absolute;
+  width: 250px;
+  text-align: center;
+  top:  250px;
+  right: 185px;
+  padding: 20px 40px 20px 40px;
+  box-shadow: 9px 6px 20px black;
+  background-color: #3A4C5F;
+  color: #F6F7FA;
+  border: 3px solid white;
+  border-radius: 6px;
+  opacity: 0.8;
+  font-size: 25px;
+}
+#continueButton:hover {
+  position:absolute;
+  width: 250px;
+  text-align: center;
+  top: 350px;
+  right: 185px;
+  padding: 20px 40px 20px 40px;
+  box-shadow: 9px 6px 20px black;
+  background-color: #3A4C5F;
+  color: #F6F7FA;
+  border: 4px solid white;
+  border-radius: 6px;
+  opacity: 1;
+}
+#continueButton1:hover {
+  position:absolute;
+  width: 250px;
+  text-align: center;
+  top: 250px;
+  right: 185px;
+  padding: 20px 40px 20px 40px;
+  box-shadow: 9px 6px 20px black;
+  background-color: #3A4C5F;
+  color: #F6F7FA;
+  border: 4px solid white;
+  border-radius: 6px;
+  opacity: 1;
+}
+ a {
+  text-decoration: none;
+}
+.formBody {
+  background-image: url(images/workout_generator.jpg);
+}
+.formBox {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 60px;
+}
+.formInfo {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(144, 159, 177);
+  font-weight: 400;
+}
+.formTitle {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: 'Poppins', sans-serif;
+}
+#clickMe {
+  border: 2px solid rgb(157, 176, 163);
+  border-radius: 10px;
+  background-color: black;
+  color: rgb(246, 247, 250);
+  width: 30%;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  font-size: 18px;
+  float: right;
+  margin-bottom: 5px;
+}
+#clickMe:hover {
+  border: 2px solid rgb(157, 176, 163);
+  border-radius: 10px;
+  background-color: rgba(124, 130, 140, 0.4);
+  color: rgb(157, 176, 163);
+  width: 30%;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  font-size: 18px;
+  float: right;
+  margin-bottom: 5px;
+}
+input {
+  border-radius: 5px;
+  background-color: rgb(246, 247, 250);
+}
+#instructions {
+  margin-top: 10px;
+  color: rgb(246, 247, 250);
+}
+#workoutResults div{
+  font-size: 14px;
+  padding: 30px;
+  background-color: rgba(50, 62, 80, 0.7);
+  color: rgb(246, 247, 250);
+  overflow-y: scroll;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.navBtn {
+  text-align: center;
+  border: 2px solid rgb(157, 176, 163);
+  border-radius: 10px;
+  background-color: rgba(50, 62, 80, 0.7);
+  color: rgb(246, 247, 250);
+  width: 130px;
+  float:right;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 7px;
+  filter:brightness(90%);
+  box-shadow: 1px 1px 6px rgb(144, 159, 177)
+}
+.navBtn:hover {
+  filter:brightness(100%);
+}
+.homeBtn {
+  text-align: center;
+  border: 2px solid rgb(157, 176, 163);
+  border-radius: 10px;
+  background-color: rgba(50, 62, 80, 0.7);
+  color: rgb(246, 247, 250);
+  width: 50px;
+  float:right;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 7px;
+  filter:brightness(90%);
+  box-shadow: 1px 1px 6px rgb(144, 159, 177)
+}
+.homeBtn:hover {
+  filter:brightness(100%);
+}
+.opacityFix {
+  filter:opacity(70%);
+}
+.opacityFix:hover {
+  filter:opacity(100%);
+}
+#randomButton {
+  border: 2px solid rgb(157, 176, 163);
+  border-radius: 10px;
+  background-color: black;
+  color: rgb(246, 247, 250);
+  width: 35%;
+  font-family: 'Poppins', sans-serif;
+  padding: 11px;
+  font-size: 15px;
+  float: left;
+  margin-bottom: 5px;
+}
+#randomButton:hover {
+  border: 2px solid rgb(157, 176, 163);
+  border-radius: 10px;
+  background-color: rgba(124, 130, 140, 0.4);
+  color: rgb(157, 176, 163);
+  width: 35%;
+  font-family: 'Poppins', sans-serif;
+  padding: 11px;
+  font-size: 15px;
+  float: left;
+  margin-bottom: 5px;
+}
+#showName {
+  color: rgb(246, 247, 250);
+  margin-top: 80px;
+  padding-bottom: 0px;
+  font-family: 'Concert One', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+#resultsTitle {
+  font-size: 26px;
+  color: rgb(246, 247, 250);
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  left: 750px;
+  padding: 20px;
+  border: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+}

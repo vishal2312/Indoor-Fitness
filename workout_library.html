@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>INDOOR FITNESS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="workout_library.css">
+
+</head>
+
+<body>
+
+	<label class="tablink">INDOOR FITNESS</label>
+	<button class="tablink" onclick="location.href='home.html'" id="defaultOpen">HOME</button>
+	<button class="tablink" onclick="location.href='workout_library.html'">WORKOUT LIBRARY</button>
+	<button class="tablink" onclick="location.href='bmi_calculator.html'">BMI CALCULATOR</button>
+	<button class="tablink" onclick="location.href='about_us.html'">ABOUT US</button>
+	<button class="tablink" onclick="location.href='sign_up.html'">SIGN UP</button>
+    <button class="tablink" onclick="location.href='profile.html'">PROFILE</button>
+	
+	<h2 style="text-align: center;"><b>WORKOUT LIBRARY</b></h2>
+  
+    <div id="tabsDiv">
+
+        <div id="ALL EXERCISE" class="contentClass">
+            <h3>ALL EXERCISE</h3>
+        </div>
+
+  
+        <div id="OFFICE WORKOUT" class="contentClass">
+            <h3>OFFICE WORKOUT</h3>
+        </div>
+  
+        <div id="WORKOUT GENERATOR" class="contentClass">
+            <h3>WORKOUT GENERATOR</h3>
+        </div>
+  
+        <div id="SPECIAL PROGRAMS" class="contentClass">
+            <h3>SPECIAL PROGRAMS</h3>
+        </div>
+  
+  	    <div id="YOGA" class="contentClass">
+            <h3>YOGA</h3>
+        </div>
+
+        <ul class="ulClass" style="height:300px">
+            <li style="list-style-type:none;">
+                <button class="linkClass" onclick="location.href='all_exercise.html'"
+                    "displayContent(event, 'ALL EXERCISE')">
+                    ALL EXERCISE
+                </button>
+            </li>
+            
+            <form id="myForm" name="myForm" action = "my_plans.php" method = "POST">
+  
+                <li style="list-style-type:none;">
+                    <button class="linkClass" name="selected_exercise" type="submit" value="OFFICE WORKOUT"
+                        onclick="location.href='office_workout.html'"
+                        "displayContent(event, 'OFFICE WORKOUT')">
+                        OFFICE WORKOUT
+                    </button>
+                </li>
+
+                <li style="list-style-type:none;">
+                    <button class="linkClass" name="selected_exercise" type="submit" value="YOGA"
+                        onclick="location.href='yoga.html'" 
+                        "displayContent(event, 'YOGA')">
+                        YOGA</button>
+                </li>    
+            </form>
+  
+            <li style="list-style-type:none;">
+                <button class="linkClass" onclick="location.href='workout_generator.html'"
+                    "displayContent(event, 'WORKOUT GENERATOR')">
+                    WORKOUT GENERATOR
+                </button>
+            </li>
+  
+            <li style="list-style-type:none;">
+                <button class="linkClass" onclick="location.href='special_programs.html'"
+                    "displayContent(event, 'SPECIAL PROGRAMS')">
+                    SPECIAL PROGRAMS
+                </button>
+            </li>
+        </ul>
+    </div>
+
+	
+
+</body>
+	<script src="index.js"></script>
+	<script src="home.js"></script>
+</html>

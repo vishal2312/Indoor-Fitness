@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="bmi_calculator.css">
+  <title>BMI Calculator</title>
+
+</head>
+
+<body style="background-color: #05C7C3;">
+  <label class="tablink">INDOOR FITNESS</label>
+  <label class="tablink" onclick="location.href='home.html'" id="defaultOpen">HOME</label>
+  <label class="tablink" onclick="location.href='workout_library.html'">WORKOUT LIBRARY</label>
+  <label class="tablink" onclick="location.href='bmi_calculator.html'">BMI CALCULATOR</label>
+  <label class="tablink" onclick="location.href='about_us.html'">ABOUT US</label>
+  <label class="tablink" onclick="location.href='sign_up.html'">SIGN UP</label>
+  <label class="tablink" onclick="location.href='profile.html'">PROFILE</label>
+  
+  <div class="container">
+    <div class="header">
+      <h1><b>BMI CALCULATOR</b></h1>
+    </div>
+
+    <div class="body">
+      <div class="input">
+        <label for=""><b>Height</b></label>
+        <input type="text" placeholder="feet" class='feet'>
+        <input type="text" placeholder="inches" class='inches'>
+      </div>
+      <div class="input ">
+        <label for=""><b>Weight</b></label>
+        <input type="text" placeholder="Kg" class='pounds'>
+      </div>
+      <div class="btn">
+        <button><b>Calculate</b></button>
+      </div>
+      <div class="output">
+        <h6 class='result'><b>Please enter your weight and height.</b></h6>
+      </div>
+      <div class="footer">
+        <p>Click here for more information about BMI.</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src='bmi_calculator.js'></script>
+</html>

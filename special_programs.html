@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>INDOOR FITNESS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="workout_library.css">
+<link rel="stylesheet" href="abs_workout.css">
+
+
+</head>
+
+<body>
+	
+    <nav>
+      <h1 class = "mainTitle">ALL EXERCISE</h1>
+      <a class = "opacityFix" href = "workout_library.html"><p class = "homeBtn">Back</p></a>      
+    </nav>
+
+	<h2 style="text-align: center;"><b>SPECIAL PROGRAMS</b></h2>
+  
+    <div id="tabsDiv">
+
+        <div id="TOTAL BODY WORKOUT" class="contentClass">
+            <h3>TOTAL BODY WORKOUT</h3>
+        </div>
+
+  
+        <div id="MUSCLE BUILDING" class="contentClass">
+            <h3>MUSCLE BUILDING</h3>
+        </div>
+  
+        <div id="WEIGHT LOSS " class="contentClass">
+            <h3>WEIGHT LOSS</h3>
+        </div>
+  
+        <div id="HIIT TRAINING" class="contentClass">
+            <h3>HIIT TRAINING</h3>
+        </div>
+  
+  	    <div id="CARDIO BLAST" class="contentClass">
+            <h3>CARDIO BLAST</h3>
+        </div>
+
+        <form id="myForm" name="myForm" action = "special_programs.php" method = "POST">
+
+        <ul class="ulClass" style="height:300px">
+            <li style="list-style-type:none;">
+                <button class="linkClass" name="selected_exercise" type="submit" value="TOTAL BODY WORKOUT"
+                    onclick="location.href='total_body_workout.html'"
+                    "displayContent(event, 'TOTAL BODY WORKOUT')">
+                    TOTAL BODY WORKOUT
+                </button>
+            </li>
+              
+            <li style="list-style-type:none;">
+                <button class="linkClass" name="selected_exercise" type="submit" value="MUSCLE BUILDING"
+                    onclick="location.href='muscle_building.html'"
+                    "displayContent(event, 'MUSCLE BUILDING')">
+                    MUSCLE BUILDING
+                </button>
+            </li>
+  
+            <li style="list-style-type:none;">
+                <button class="linkClass" name="selected_exercise" type="submit" value="WEIGHT LOSS"
+                    onclick="location.href='weight_loss.html'"
+                    "displayContent(event, 'WEIGHT LOSS')">
+                    WEIGHT LOSS 
+                </button>
+            </li>
+  
+            <li style="list-style-type:none;">
+                <button class="linkClass" name="selected_exercise" type="submit" value="HIIT TRAINING" 
+                    onclick="location.href='hiit_training.html'"
+                    "displayContent(event, 'HIIT TRAINING')">
+                    HIIT TRAINING
+                </button>
+            </li>
+
+            <li style="list-style-type:none;">
+                <button class="linkClass" name="selected_exercise" type="submit" value="CARDIO BLAST"
+                    onclick="location.href='cardio_blast.html'"
+                    "displayContent(event, 'CARDIO BLAST')">
+                    CARDIO BLAST
+            </li>    
+            </button>
+
+        </ul>
+    </form>
+    </div>
+
+	
+
+</body>
+	<script src="index.js"></script>
+	<script src="home.js"></script>
+</html>

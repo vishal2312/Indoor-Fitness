@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>INDOOR FITNESS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="all_exercise.css">
+<link rel="stylesheet" type="text/css" href="abs_workout.css"/>
+
+</head>
+
+<body>
+
+	<!-- <label class="tablink">INDOOR FITNESS</label>
+	<button class="tablink" onclick="location.href='home.html'" id="defaultOpen">HOME</button>
+	<button class="tablink" onclick="location.href='workout_library.html'">WORKOUT LIBRARY</button>
+	<button class="tablink" onclick="location.href='bmi_calculator.html'">BMI CALCULATOR</button>
+	<button class="tablink" onclick="location.href='about_us.html'">ABOUT US</button>
+	<button class="tablink" onclick="location.href='sign_up.html'">SIGN UP</button> -->
+    <nav>
+      <h1 class = "mainTitle">ALL EXERCISE</h1>
+      <a class = "opacityFix" href = "workout_library.html"><p class = "homeBtn">Back</p></a>      
+    </nav>
+        
+    <div id="tabsDiv">       
+        <div id="ABS WORKOU" class="contentClass">
+            <h3>ABS WORKOUT</h3>
+        </div> 
+        <div id="ARMS WORKOUT" class="contentClass">
+            <h3>ARMS WORKOUT</h3>
+        </div> 
+        <div id="CHEST WORKOUT" class="contentClass">
+            <h3>CHEST WORKOUT</h3>
+        </div>  
+        <div id="LEGS WORKOUT" class="contentClass">
+            <h3>LEGS WORKOUT</h3>
+        </div> 
+  	    <div id="BACK AND SHOULDER WORKOUT" class="contentClass">
+            <h3>BACK AND SHOULDER WORKOUT</h3>
+        </div>
+
+        <form id="myForm" name="myForm" action = "all_exercise.php" method = "POST">
+
+        <ul class="ulClass" style="height:300px">
+
+            <li style="list-style-type:none;">
+                <button class="linkClass" name="selected_exercise" type="submit" value="ABS WORKOUT" 
+                    onclick="location.href='abs_workout.html'"
+                    "displayContent(event, 'ABS WORKOUT')">
+                    ABS WORKOUT
+                </button>
+            </li>
+              
+            <li style="list-style-type:none;">
+                <button class="linkClass" name="selected_exercise" type="submit" value="ARMS WORKOUT" 
+                    onclick="location.href='arms_workout.html'"
+                    "displayContent(event, 'ARMS WORKOUT')">
+                    ARMS WORKOUT
+                </button>
+            </li>
+  
+            <li style="list-style-type:none;">
+                <button class="linkClass" name="selected_exercise" type="submit" value="CHEST WORKOUT" 
+                    onclick="location.href='chest_workout.html'"
+                    "displayContent(event, 'CHEST WORKOUT')">
+                    CHEST WORKOUT
+                </button>
+            </li>
+  
+            <li style="list-style-type:none;">
+                <button class="linkClass" name="selected_exercise" type="submit" value="LEGS WORKOUT" 
+                    onclick="location.href='legs_workout.html'"
+                    "displayContent(event, 'LEGS WORKOUT')">
+                    LEGS WORKOUT
+                </button>
+            </li>
+
+            <li style="list-style-type:none;">
+                <button class="linkClass" name="selected_exercise" type="submit" value="BACK AND SHOULDER WORKOUT" 
+                    onclick="location.href='back_and_shoulder_workout.html'"
+                    "displayContent(event, 'BACK AND SHOULDER WORKOUT')">
+                    BACK AND SHOULDER WORKOUT
+            </li>    
+            </button>
+
+        </ul>
+    </form>
+    </div>
+
+
+
+</body>
+	<script src="index.js"></script>
+	<script src="home.js"></script>
+</html>
